@@ -1,13 +1,13 @@
 // 1. დაწერეთ for ციკლი, 0 დან 50 - მდე console.log ში დაბეჭდეთ ინდექსი i 
 for(i = 0; i < 50; i++){
-    console.log("for");
+    console.log("for", i);
 }
 
 // 2. დაწერეთ while ციკლი 0 დან 20 - მდე console.log ში დაბეჭდეთ ინდექსი i
 
 let x=0;
 while(x<20){
-    console.log("while");
+    console.log("while", x);
     x++;
 }
 
@@ -16,7 +16,7 @@ while(x<20){
 
 let y = 0;
 do {
-    console.log("do-while");
+    console.log("do-while", y);
     y++;
     
 } while (y < 30);
